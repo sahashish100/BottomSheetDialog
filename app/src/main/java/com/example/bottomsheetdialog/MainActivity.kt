@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
             val btnClose = view.findViewById<Button>(R.id.cancel)
 
+
+
             btnClose.setOnClickListener {
                 dialog.dismiss()
             }
